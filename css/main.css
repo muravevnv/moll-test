@@ -1,5 +1,5 @@
 :root {
-  --font-family: "Montserrat", sans-serif;
+  --font-family: "HelveticaNeueCyr", sans-serif;
   --font-size: 16px;
   --line-height: 1.5;
   --border-radius: 8px;
@@ -44,6 +44,27 @@ h3 {
   font-size: 1.25rem;
 }
 
+@font-face {
+  font-family: "HelveticaNeueCyr";
+  src: url("../fonts/HelveticaNeueCyr-Roman.woff") format("woff"), url("../fonts/HelveticaNeueCyr-Roman.ttf") format("truetype"), url("../fonts/HelveticaNeueCyr-Roman.eot") format("eot");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HelveticaNeueCyr";
+  src: url("../fonts/HelveticaNeueCyr-Light.woff") format("woff"), url("../fonts/HelveticaNeueCyr-Light.ttf") format("truetype"), url("../fonts/HelveticaNeueCyr-Light.eot") format("eot");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HelveticaNeueCyr";
+  src: url("../fonts/HelveticaNeueCyr-Roman.woff") format("woff"), url("../fonts/HelveticaNeueCyr-Roman.ttf") format("truetype"), url("../fonts/HelveticaNeueCyr-Roman.eot") format("eot");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 *, html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -918,9 +939,8 @@ ul:not([class]) li:not(:last-child) {
   border-radius: 50%;
   position: absolute;
   mix-blend-mode: screen;
-  background-blend-mode: screen;
   top: -200px;
-  right: 25%;
+  right: 30%;
 }
 .gallery-items {
   overflow: hidden;
