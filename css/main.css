@@ -184,15 +184,6 @@ ul:not([class]) li:not(:last-child) {
   margin-bottom: 1rem;
 }
 
-::-moz-selection {
-  color: var(--color-white);
-  background-color: var(--color-primary);
-}
-
-::selection {
-  color: var(--color-white);
-  background-color: var(--color-primary);
-}
 
 .btn {
   position: relative;
